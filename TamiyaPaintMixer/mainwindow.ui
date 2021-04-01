@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1600</width>
+    <height>900</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -69,6 +69,19 @@
       <item>
        <widget class="QComboBox" name="colorToMixCombo"/>
       </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
      </layout>
     </item>
     <item>
@@ -81,7 +94,161 @@
        </widget>
       </item>
       <item>
-       <widget class="QGraphicsView" name="mixedColorView"/>
+       <widget class="QGraphicsView" name="mixedColorView">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="mixColor1Label">
+        <property name="text">
+         <string>Mix color 1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGraphicsView" name="mixColor1View"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mixColor1ComboBox"/>
+      </item>
+      <item>
+       <widget class="QSlider" name="mixColor1Slider">
+        <property name="maximum">
+         <number>10</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="mixColor2Label">
+        <property name="text">
+         <string>Mix color 2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGraphicsView" name="mixColor2View"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mixColor2ComboBox"/>
+      </item>
+      <item>
+       <widget class="QSlider" name="mixColor2Slider">
+        <property name="maximum">
+         <number>10</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="mixColor3Label">
+        <property name="text">
+         <string>Mix color 3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGraphicsView" name="mixColor3View"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mixColor3ComboBox"/>
+      </item>
+      <item>
+       <widget class="QSlider" name="mixColor3Slider">
+        <property name="maximum">
+         <number>10</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="mixColor4Label">
+        <property name="text">
+         <string>Mix color 4</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGraphicsView" name="mixColor4View"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mixColor4ComboBox"/>
+      </item>
+      <item>
+       <widget class="QSlider" name="mixColor4Slider">
+        <property name="maximum">
+         <number>10</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -92,7 +259,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1600</width>
      <height>24</height>
     </rect>
    </property>
@@ -117,8 +284,141 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>mixColor1ComboBox</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>SetColour1(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>411</x>
+     <y>589</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor2ComboBox</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>SetColour2(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>573</x>
+     <y>589</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor3ComboBox</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>SetColour3(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>736</x>
+     <y>589</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor4ComboBox</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>SetColour4(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>589</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor1Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>RecomputeMixedColor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>411</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor2Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>RecomputeMixedColor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>573</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor3Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>RecomputeMixedColor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>736</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor4Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>RecomputeMixedColor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>SetColourToMix(QString)</slot>
+  <slot>SetColour1(QString)</slot>
+  <slot>SetColour2(QString)</slot>
+  <slot>SetColour3(QString)</slot>
+  <slot>SetColour4(QString)</slot>
+  <slot>RecomputeMixedColor()</slot>
  </slots>
 </ui>
