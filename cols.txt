@@ -1,75 +1,75 @@
-XF1: #333333
-XF2: #ffffff
-XF3: #ffcc00
-XF4: #b3c60f
-XF5: #244313
-XF6: #cc5c03
-XF7: #ff0000
-XF8: #284c7b
-XF9: #3e0e02
-XF10: #3e2a09
-XF11: #26330b
-XF12: #b3cbae
-XF13: #334a1f
-XF14: #b3ca8e
-XF15: #fdcda1
-XF16: #cccccc
-XF17: #2e3b43
-XF18: #485b5f
-XF19: #adb7c0
-XF20: #a3aa96
-XF21: #b8be77
-XF22: #7b8d7d
-XF23: #8fb5ad
-XF24: #3e4448
-XF25: #7a8ba9
-XF26: #2e1f09
-XF27: #00260f
-XF28: #995f3b
-XF49: #7e783f
-XF50: #364146
-XF51: #29330e
-XF52: #734834
-XF53: #6c787b
-XF54: #5c5d61
-XF55: #b7b187
-XF56: #5c6264
-XF57: #b8b36a
-XF58: #1a3b14
-XF59: #d89c42
-XF60: #c7b140
-XF61: #1a2d0f
-XF62: #404b13
-XF63: #3e474a
-XF64: #66370a
-XF65: #67866b
-XF66: #667679
-XF67: #33601a
-XF68: #733007
-XF69: #222424
-XF70: #00250f
-XF71: #74925d
-XF72: #734c0c
-XF73: #1a4316
-XF74: #334012
-XF75: #828d93
-XF76: #b8c3a7
-XF77: #686d71
-XF78: #d3b685
-XF79: #784629
-XF80: #c1cac8
-XF81: #355533
-XF82: #6c8c99
-XF83: #aabeb9
-XF84: #4f3732
-XF85: #221815
-XF86: #ffffff
-XF87: #7d8085
-XF88: #c1af4d
-XF89: #5c8462
-XF90: #4f3832
-XF91: #636c75
-XF92: #b28251
+XF1 Flat Black: #333333
+XF2 Flat White: #ffffff
+XF3 Flat Yellow: #ffcc00
+XF4 Yellow Green: #b3c60f
+XF5 Flat Green: #244313
+XF6 Copper: #cc5c03
+XF7 Flat Red: #ff0000
+XF8 Flat blue: #284c7b
+XF9 Hull red: #3e0e02
+XF10 Flat brown: #3e2a09
+XF11 J.N Green: #26330b
+XF12 J.N grey: #b3cbae
+XF13 J.A green: #334a1f
+XF14 J.A grey: #b3ca8e
+XF15 Flat flesh: #fdcda1
+XF16 Flat aluminium: #cccccc
+XF17 Sea blue: #2e3b43
+XF18 Medium blue: #485b5f
+XF19 Sky grey: #adb7c0
+XF20 Medium grey: #a3aa96
+XF21 Sky: #b8be77
+XF22 RLM grey: #7b8d7d
+XF23 Light blue: #8fb5ad
+XF24 Dark grey: #3e4448
+XF25 Light sea grey: #7a8ba9
+XF26 Deep green: #2e1f09
+XF27 Black green: #00260f
+XF28 Dark copper: #995f3b
+XF49 Khaki: #7e783f
+XF50 Field blue: #364146
+XF51 Khaki drab: #29330e
+XF52 Flat earth: #734834
+XF53 Neutral grey: #6c787b
+XF54 Dark sea grey: #5c5d61
+XF55 Deck tan: #b7b187
+XF56 Metallic grey: #5c6264
+XF57 Buff: #b8b36a
+XF58 Olive green: #1a3b14
+XF59 Desert yellow: #d89c42
+XF60 Dark yellow: #c7b140
+XF61 Dark green: #1a2d0f
+XF62 Olive drab: #404b13
+XF63 German grey: #3e474a
+XF64 Red brown: #66370a
+XF65 Field grey: #67866b
+XF66 Light grey: #667679
+XF67 NATO green: #33601a
+XF68 NATO brown: #733007
+XF69 NATO black: #222424
+XF70 Dark Green 2: #00250f
+XF71 Cockpit green: #74925d
+XF72 Brown (JGSDF): #734c0c
+XF73 Dark green (JGSDF): #1a4316
+XF74 Olive drab: #334012
+XF75 IJN Gray: #828d93
+XF76 Gray green (IJN): #b8c3a7
+XF77 IJN Gray (Sasebo): #686d71
+XF78 Wooden Deck Tan: #d3b685
+XF79 Lino Deck brown: #784629
+XF80 Royal light gray: #c1cac8
+XF81 Dark green 2: #355533
+XF82 Ocean gray 2: #6c8c99
+XF83 Medium sea gray 2 (RAF): #aabeb9
+XF84 Dark iron: #4f3732
+XF85 Rubber black: #221815
+XF86 Flat clear: #ffffff
+XF87 IJN Gray (Maizaru): #7d8085
+XF88 Dark yellow 2: #c1af4d
+XF89 Dark green 2: #5c8462
+XF90 Red brown 2: #4f3832
+XF91 IJN Gray (Yokosuka): #636c75
+XF92 Light brown: #b28251
 AS1: #113915
 AS2: #a3aa96
 AS3: #253a2e

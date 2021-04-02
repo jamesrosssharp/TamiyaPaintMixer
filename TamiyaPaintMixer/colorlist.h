@@ -31,6 +31,8 @@ private:
     std::vector<ColorDat> m_cols;
     std::map<std::string, QColor> m_colMap;
 
+    std::vector<std::string> m_stock;
+
 };
 
 #endif // COLORLIST_H

@@ -82,6 +82,19 @@
         </property>
        </spacer>
       </item>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
      </layout>
     </item>
     <item>
@@ -118,6 +131,19 @@
       </item>
       <item>
        <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_6">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -169,6 +195,13 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QLabel" name="mixColor1SliderLabel">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item>
@@ -193,6 +226,13 @@
         </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="mixColor2SliderLabel">
+        <property name="text">
+         <string>0</string>
         </property>
        </widget>
       </item>
@@ -223,6 +263,13 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QLabel" name="mixColor3SliderLabel">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item>
@@ -247,6 +294,13 @@
         </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="mixColor4SliderLabel">
+        <property name="text">
+         <string>0</string>
         </property>
        </widget>
       </item>
@@ -409,6 +463,70 @@
     <hint type="destinationlabel">
      <x>492</x>
      <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor1Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>mixColor1SliderLabel</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>833</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>667</x>
+     <y>856</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor2Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>mixColor2SliderLabel</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>932</x>
+     <y>833</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>932</x>
+     <y>856</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor3Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>mixColor3SliderLabel</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1196</x>
+     <y>833</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>856</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mixColor4Slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>mixColor4SliderLabel</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1461</x>
+     <y>833</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1461</x>
+     <y>856</y>
     </hint>
    </hints>
   </connection>
